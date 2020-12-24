@@ -15,5 +15,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onTap(_ sender: Any) {
+        print("Hello")
+        
+        view.endEditing(true)
+        
+    }
+    
+    
 }
 
